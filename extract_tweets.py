@@ -30,7 +30,7 @@ politician_keywords = {
 }
 
 # The broad search query to capture all relevant tweets
-SEARCH_QUERY = '("Anura Kumara" OR AKD OR "Sajith" OR "Ranil" OR "Namal Rajapaksa") lang:en OR lang:si -is:retweet'
+SEARCH_QUERY = '("Anura Kumara" OR AKD OR "Sajith" OR "Ranil" OR "Namal Rajapaksa") (lang:en OR lang:si) -is:retweet'
 
 # Happy Emoticons
 emoticons_happy = set([':-)', ':)', ';)', ':o)', ':]', ':3', ':c)', ':>', '=]', '8)', '=)', ':}', ':^)', ':-D', ':D', '8-D', '8D', 'x-D', 'xD', 'X-D', 'XD', '=-D', '=D', '=-3', '=3', ':-))', ":'-)", ":')", ':*', ':^*', '>:P', ':-P', ':P', 'X-P', 'x-p', 'xp', 'XP', ':-p', ':p', '=p', ':-b', ':b', '>:)', '>;)', '>:-)', '<3'])
