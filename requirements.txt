@@ -1,0 +1,6 @@
+pandas
+matplotlib
+seaborn
+textblob
+deep‑translator
+ipywidgets
