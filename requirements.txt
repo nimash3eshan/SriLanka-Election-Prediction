@@ -2,5 +2,15 @@ pandas
 matplotlib
 seaborn
 textblob
-deep‑translator
+deep-translator
 ipywidgets
+scikit-learn
+xgboost
+tensorflow
+transformers
+notebook
+bertopic
+tf-keras
+polars
+emoji
+pyarrow
