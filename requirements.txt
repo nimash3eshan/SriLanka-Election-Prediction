@@ -14,3 +14,7 @@ tf-keras
 polars
 emoji
 pyarrow
+streamlit
+altair
+requests
+python-dotenv
