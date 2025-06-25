@@ -1,9 +1,9 @@
-# 🇱🇰 Sri Lanka Election Prediction - Social Media Analysis
+# Sri Lanka Election Prediction - Social Media Analysis
 
 A comprehensive machine learning project that analyzes social media sentiment and predicts the impact of tweets related to Sri Lankan politicians during election periods. The project implements two distinct approaches: **Sentiment Analysis** and **Impact Score Prediction**.
 
 ## 📋 Project Overview
-
+![output](https://i.ibb.co/pHg2ZSS/output.png)
 This project uses Twitter data to analyze public sentiment and predict social media impact for key Sri Lankan politicians:
 - **Anura Kumara Dissanayake (AKD)**
 - **Sajith Premadasa**
@@ -18,7 +18,7 @@ This project uses Twitter data to analyze public sentiment and predict social me
   - Hybrid sentiment scoring (TextBlob + Custom Singlish lexicon)
   - Multi-language support (English & Sinhala)
   - Engagement-weighted sentiment analysis
-  - Interactive visualizations
+  - Interactive visualisations
 - **Output**: Sentiment distribution and engagement-weighted sentiment scores
 
 #### 2. **Impact Score Prediction Approach** (`impact model/analysis-app-model-based.py`)
@@ -75,7 +75,8 @@ SriLanka-Election-Prediction/
 3. **Set up environment variables**
    Create a `.env` file in the project root:
    ```env
-   TWITTER_API_IO_KEY=your_twitter_api_key_here
+   TWITTER_API_IO_KEY= your_twitterapi.io_apikey_here
+   BEARER_TOKEN= Token_from_https://developer.x.com/en/portal/projects-and-apps
    ```
 
 ### Running the Applications
